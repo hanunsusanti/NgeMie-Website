@@ -1,0 +1,86 @@
+* {
+    background-color: #00001F;
+    /* font-family: "Poppins", sans-serif; */
+    color: #C6C6C6;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+/* -----------------------navbar----------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 35px 10px 35px;
+}
+
+.logo{
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 35px;
+}
+
+/* ---------------------home section--------------------- */
+#home{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    padding: 50px 35px 302px 35px;
+}
+
+.tagline-container{
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 160px; */
+    padding-bottom: 75px;
+    gap: 28px;
+}
+
+.tagline-1{
+    font-family: "Libre Bodoni", serif;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.tagline-2{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.button p{
+    font-family: "Luxurious Roman", serif;
+    font-size: 28px;
+    color: #40DFFF;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 206px;
+    height: 56px;
+    border-radius: 25px; 
+    border: 1px solid #C6C6C6;
+}
+
+.home-pict{
+    width: 610px;
+    height: 610px;
+    border-radius: 100%;
+    /* fill: url(assets/home-pict.png) lightgray -478.803px -241.788px / 218.515% 145.922% no-repeat; */
+    filter: drop-shadow(-26px 28px 30px rgba(0, 0, 0, 0.29));
+}
